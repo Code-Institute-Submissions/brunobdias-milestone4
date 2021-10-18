@@ -3,11 +3,12 @@ html {
 }
 
 body {
-	background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+	background: url('/media/restaurantBg.jpg') no-repeat center center fixed;
 	background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: "Lato";
+    opacity: 0.75
 }
 
 /* from Bulma */
@@ -60,10 +61,16 @@ body {
     background: #000 !important;
 }
 
+.text-shadow {
+       text-shadow: 0 0 3px #ffd000, 0 0 5px rgb(46, 44, 44);
+       color: #fff!important;
+   }
+
 /* --------------------------------- Media queries */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
+    
   .container {
     max-width: 80%;
   }
