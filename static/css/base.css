@@ -8,7 +8,6 @@ body {
     height: calc(100vh - 164px);
     color: #555;
     font-family: "Lato";
-    opacity: 0.75
 }
 
 /* from Bulma */
@@ -64,7 +63,17 @@ body {
 .text-shadow {
        text-shadow: 0 0 3px #ffd000, 0 0 5px rgb(46, 44, 44);
        color: #fff!important;
-   }
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
+}
 
 /* --------------------------------- Media queries */
 
