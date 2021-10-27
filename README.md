@@ -4,6 +4,8 @@ Welcome,
 
 Unfortunetely the project it self finds Incomplete.
 
+The project was written based on the course boutique_ado project
+
 It's missing to do:
  - Readme.md
  - Improve Store Styling
